@@ -1,6 +1,6 @@
-# ⚡ ShadowSweep — Command-line Host & Port Recon Toolkit
+# ⚡ Scanner — Command-line Host & Port Recon Toolkit
 
-ShadowSweep is a sleek wrapper over `python-nmap` that brings fast host discovery, customizable scan profiles, and pretty terminal output together. Point it at any IP or domain, toggle the scan flavors you need, and ShadowSweep turns the raw `nmap` output into a neat, timestamped report you can read or export.
+Scanner is a sleek wrapper over `python-nmap` that brings fast host discovery, customizable scan profiles, and pretty terminal output together. Point it at any IP or domain, toggle the scan flavors you need, and ShadowSweep turns the raw `nmap` output into a neat, timestamped report you can read or export.
 
 ---
 
@@ -15,8 +15,8 @@ ShadowSweep is a sleek wrapper over `python-nmap` that brings fast host discover
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/shadowsweep.git
-cd shadowsweep
+git clone https://github.com/rajoriyadaksh0/scanner_nmap.git
+cd scanner_nmap
 ```
 
 ### 2. Ensure Python is ready
@@ -92,12 +92,5 @@ Scan finished with duration 7.42
 
 ---
 
-## 🧭 Roadmap Ideas
-- JSON/HTML report exporters.
-- Async multi-target mode.
-- Predefined scan presets for pentests, uptime checks, etc.
-
----
-
-Happy scanning! If you ship improvements, drop a PR or tag `#ShadowSweep` so we can see it in action.
+Happy scanning! If you ship improvements, drop a PR or tag `#scanner` so we can see it in action.
 
