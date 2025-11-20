@@ -1,0 +1,11 @@
+[project]
+name = "upload"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "argparse>=1.4.0",
+    "datetime>=5.5",
+    "python-nmap>=0.7.1",
+]

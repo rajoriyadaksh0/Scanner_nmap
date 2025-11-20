@@ -25,6 +25,7 @@ parser.add_argument("-sV","--version-scan",action="store_true",help="TCP version
 parser.add_argument("-sC","--script-scan",action="store_true",help="Default Script Scan")
 parser.add_argument("-sU","--udp-scan",action="store_true",help="UDP Scan")
 parser.add_argument("-oN","--output-normal",help="Store output as text file (e.g. 'scan.txt')")
+parser.add_argument("-Pn",action="store_true",help="Skip Ping")
 parser.add_argument("-p","--port",default="1-1024",help="Mention the port or default (1-1024) will be used")
 
 args=parser.parse_args()
